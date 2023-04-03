@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="game.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Whack a mole</title>
+  </head>
+  <body>
+    <p>Очки:</p>
+    <p>Гравець: <span id="humanScore">0</span></p>
+    <p>Комп'ютер: <span id="computerScore">0</span></p>
+    <table id="gameTable"></table>
+    <label for="difficulty">Рівень складності:</label>
+    <select id="difficulty">
+      <option value="1500">Легкий</option>
+      <option value="1000">Середній</option>
+      <option value="500">Важкий</option>
+    </select>
+    <button id="start">Старт</button>
+  </body>
+</html>
